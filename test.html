@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    table.value-churn-triage {
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+    }
+
+    th,
+    td {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    td.numeric {
+        text-align: right;
+        word-break: normal;
+    }
+
+    td.property-path {
+        min-width: 275px;
+    }
+
+    td.sample-links {
+        min-width: 150px;
+        position: relative;
+    }
+
+    tr.root-property {
+        background-color: #ff9999;
+        border-top: 3px solid black;
+    }
+
+    tr.nested-property {
+        background-color: #fff4b0;
+    }
+
+    tr.root-property,
+    tr.nested-property,
+    tr.header {
+        border-right: 3px solid black;
+        border-left: 3px solid black;
+    }
+
+    .source-churn-table {
+        width: 100%;
+    }
+
+    .source-churn-table th {
+        background-color: #e9e9e9;
+    }
+
+    .source-report table {
+        width: 90%;
+        border: none;
+    }
+
+    .source-report td,
+    .gate-report th {
+        border: none;
+    }
+
+    table.gate-report {
+        border: none;
+        border-collapse: separate;
+    }
+
+    .gate-report td,
+    .gate-report th {
+        border: none;
+    }
+
+    .gate-report th {
+        background-color: #f1f1c1;
+    }
+
+    .gate-report tbody tr {
+        background-color: #e9e9e9;
+    }
+
+    .gate-report td .numeric {
+        text-align: right;
+    }
+    </style>
+</head>
+
+<body>
+    <div>Quality gate(s) failed for job [2018-01-22_02_55_34.754-ER-Prod-CO4-WrapStar-Full.Amazon_UpdateView_20180122025532]:</div>
+    <br/>
+    <div class=\ "source-report\">
+        <table>
+            <tr>
+                <td style=\ "padding-bottom: 2em\">
+                    <h4>Triage information for QualityGate [PipelineCoveragePositiveVarianceGate]:</h4>
+                    <table class=\ "gate-report\">
+                        <thead>
+                            <tr>
+                                <th>Predicate</th>
+                                <th># Previous values</th>
+                                <th># Current values</th>
+                                <th>Change</th>
+                                <th>Threshold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.literary_series.works_in_this_series</td>
+                                <td class=\ "numeric\">247,257</td>
+                                <td class=\ "numeric\">485,115</td>
+                                <td class=\ "numeric\">96.20%</td>
+                                <td class=\ "numeric\">80.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.author</td>
+                                <td class=\ "numeric\">4,221,216</td>
+                                <td class=\ "numeric\">8,179,133</td>
+                                <td class=\ "numeric\">93.76%</td>
+                                <td class=\ "numeric\">80.00%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style=\ "padding-bottom: 2em\">
+                    <h4>Triage information for QualityGate [KeyPredicateGate]:</h4>
+                    <table class=\ "gate-report\">
+                        <thead>
+                            <tr>
+                                <th>Predicate</th>
+                                <th># Previous values</th>
+                                <th># Current values</th>
+                                <th>Change</th>
+                                <th>Threshold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.literary_series.works_in_this_series</td>
+                                <td class=\ "numeric\">247,257</td>
+                                <td class=\ "numeric\">485,115</td>
+                                <td class=\ "numeric\">96.20%</td>
+                                <td class=\ "numeric\">10.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.author</td>
+                                <td class=\ "numeric\">4,221,216</td>
+                                <td class=\ "numeric\">8,179,133</td>
+                                <td class=\ "numeric\">93.76%</td>
+                                <td class=\ "numeric\">10.00%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style=\ "padding-bottom: 2em\">
+                    <h4>Triage information for QualityGate [CoverageVarianceGate]:</h4>
+                    <table class=\ "gate-report\">
+                        <thead>
+                            <tr>
+                                <th>Predicate</th>
+                                <th># Previous values</th>
+                                <th># Current values</th>
+                                <th>Change</th>
+                                <th>Threshold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.literary_series.works_in_this_series</td>
+                                <td class=\ "numeric\">247,257</td>
+                                <td class=\ "numeric\">485,115</td>
+                                <td class=\ "numeric\">96.20%</td>
+                                <td class=\ "numeric\">10.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.author</td>
+                                <td class=\ "numeric\">4,221,216</td>
+                                <td class=\ "numeric\">8,179,133</td>
+                                <td class=\ "numeric\">93.76%</td>
+                                <td class=\ "numeric\">10.00%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style=\ "padding-bottom: 2em\">
+                    <h4>Triage information for QualityGate [ImportantPredicateGate]:</h4>
+                    <table class=\ "gate-report\">
+                        <thead>
+                            <tr>
+                                <th>Predicate</th>
+                                <th># Previous values</th>
+                                <th># Current values</th>
+                                <th>Change</th>
+                                <th>Threshold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.author</td>
+                                <td class=\ "numeric\">4,221,216</td>
+                                <td class=\ "numeric\">8,179,133</td>
+                                <td class=\ "numeric\">93.76%</td>
+                                <td class=\ "numeric\">3.00%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style=\ "padding-bottom: 2em\">
+                    <h4>Triage information for QualityGate [UpdatedEntitiesChurnGate]:</h4>
+                    <table class=\ "gate-report\">
+                        <thead>
+                            <tr>
+                                <th>Predicate</th>
+                                <th># Previous values</th>
+                                <th># Deleted</th>
+                                <th>Change</th>
+                                <th>Threshold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.edition.publication_date</td>
+                                <td class=\ "numeric\">1,215</td>
+                                <td class=\ "numeric\">62</td>
+                                <td class=\ "numeric\">5.10%</td>
+                                <td class=\ "numeric\">5.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.edition.retail_price</td>
+                                <td class=\ "numeric\">2,062</td>
+                                <td class=\ "numeric\">2,062</td>
+                                <td class=\ "numeric\">100.00%</td>
+                                <td class=\ "numeric\">5.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.author</td>
+                                <td class=\ "numeric\">4,901</td>
+                                <td class=\ "numeric\">251</td>
+                                <td class=\ "numeric\">5.12%</td>
+                                <td class=\ "numeric\">5.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/book.written_work.date_of_first_publication</td>
+                                <td class=\ "numeric\">1,215</td>
+                                <td class=\ "numeric\">62</td>
+                                <td class=\ "numeric\">5.10%</td>
+                                <td class=\ "numeric\">5.00%</td>
+                            </tr>
+                            <tr>
+                                <td>http://knowledge.microsoft.com/mso/type.object.webpage</td>
+                                <td class=\ "numeric\">8,891</td>
+                                <td class=\ "numeric\">1,153</td>
+                                <td class=\ "numeric\">12.97%</td>
+                                <td class=\ "numeric\">5.00%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />Please refer to <a href=\ "https://cosmos08.osdinfra.net/cosmos/EntityPlatform/local/EntitySpace-Prod/WrapStar/Prod/BaseStreamFolder/WrapStar-Full/v191_5/Amazon//Debug/UpdatedEntitiesChurnCounter.ss?property=info\">debug stream</a> to see the samples of churned properties.
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>We are improving source gating report. Please email <a href=\ "mailto:satopqual@microsoft.com\">Satori Operational Quality</a> if you have any suggestions.</footer>
+</body>
+
+</html>

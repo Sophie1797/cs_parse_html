@@ -1,0 +1,13 @@
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\Parse_html.exe.config
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\Parse_html.exe
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\Parse_html.pdb
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\HtmlAgilityPack.dll
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\HtmlReportControl.dll
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\SautinSoft.HtmlToRtf.dll
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\System.Windows.Forms.Ribbon35.dll
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\HtmlAgilityPack.pdb
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\HtmlAgilityPack.xml
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\en\HtmlReportControl.resources.dll
+D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.exe
+D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.pdb
+D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.csprojResolveAssemblyReference.cache
