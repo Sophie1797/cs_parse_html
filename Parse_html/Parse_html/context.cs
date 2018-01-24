@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Parse_html
 {
-    public class Context
+    public class Context5
     {
         public string Predicate { get; set; }
         public string Previous_values { get; set; }
         public string Current_values { get; set; }
         public string Change { get; set; }
         public string Threshold { get; set; }
-
-        public void ToString()
+     
+        new public string ToString()
         {
-            Console.WriteLine(this.Predicate + "---" + this.Previous_values + "---" + this.Current_values + "---" + this.Change + "---" + this.Threshold);
+            return (this.Predicate + "   ---   " + this.Previous_values + "   ---   " + this.Current_values + "   ---   " + this.Change + "   ---   " + this.Threshold);
         }
     }
 }

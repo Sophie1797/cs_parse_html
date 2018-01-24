@@ -48,6 +48,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc.Extensions, Version=1.1.0.6, Culture=neutral, PublicKeyToken=d631f4e4b226a032, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Web.Mvc.Extensions.1.1.1.2\lib\net45\System.Web.Mvc.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Windows.Forms.Ribbon35.3.5.8.0\lib\net35\System.Windows.Forms.Ribbon35.dll</HintPath>
@@ -61,7 +65,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="context.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Context3.cs" />
+    <Compile Include="Parse_Operation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

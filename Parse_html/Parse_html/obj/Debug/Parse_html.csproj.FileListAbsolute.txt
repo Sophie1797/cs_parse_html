@@ -11,3 +11,5 @@ D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\en\HtmlReportControl.resourc
 D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.exe
 D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.pdb
 D:\code\C#_practice\Parse_html\Parse_html\obj\Debug\Parse_html.csprojResolveAssemblyReference.cache
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\System.Web.Mvc.Extensions.dll
+D:\code\C#_practice\Parse_html\Parse_html\bin\Debug\System.Web.Mvc.Extensions.xml
